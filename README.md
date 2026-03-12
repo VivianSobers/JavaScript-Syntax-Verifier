@@ -1,11 +1,5 @@
 # JavaScript-Syntax-Verifier
 
-A Python-based JavaScript syntax verifier built with PLY (Python Lex-Yacc). Supports variable declarations, functions, loops, conditionals, and arrays.
-
----
-
-## What it does
-
 Takes JavaScript code as input and verifies whether it is syntactically valid. It reports the exact line and token where a syntax error occurs, or confirms the code is error-free.
 
 ---
@@ -63,27 +57,6 @@ js> exit
 Syntax is valid! No errors detected.
 ```
 
----
-
-## Project Structure
-
-```
-js-syntax-verifier/
-├── lexer.py       # Tokenizer — breaks JS code into tokens using PLY lex
-├── js_parser.py   # Grammar rules — validates token structure using PLY yacc
-├── main.py        # Entry point — menu interface and input handling
-└── README.md
-```
-
----
-
-## Built With
-
-- [Python 3](https://www.python.org/)
-- [PLY (Python Lex-Yacc)](https://www.dabeaz.com/ply/) — lexer and parser generation
-
----
-
 ## Author
 
-**Vivian Edward** — [github.com/VivianSobers](https://github.com/VivianSobers)
+**Vivian Sobers E** — [github.com/VivianSobers](https://github.com/VivianSobers)
